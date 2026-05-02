@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quantum-Inspired Search Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>Quantum-Inspired Search Simulator</h1>
+
+    <label>Number of Elements</label>
+    <input id="n" type="number" placeholder="e.g. 5">
+
+    <label>Sorted Array (space separated)</label>
+    <input id="array" type="text" placeholder="e.g. 1 2 3 4 5">
+
+    <label>Target Value</label>
+    <input id="target" type="number" placeholder="e.g. 3">
+
+    <button onclick="runSearch()">Run Search</button>
+
+    <pre id="output"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
